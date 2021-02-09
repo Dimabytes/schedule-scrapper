@@ -33,7 +33,8 @@ module.exports = {
     ],
     'no-underscore-dangle': [2, { "allow": ["__filename", "__dirname"] }],
     'import/prefer-default-export': 0,
-
+    'no-restricted-syntax': 0,
+    'no-console': 0,
     'no-await-in-loop': 0,
   },
 };
